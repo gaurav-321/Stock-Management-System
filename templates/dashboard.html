@@ -1,0 +1,32 @@
+{% extends 'admin.html' %}
+{% block admin %}
+
+<div class="height-100 bg-light">
+
+    <h1 class="text-center mt-2 p-2">Dashboard</h1>
+    <section class='statis text-center'>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box bg-primary">
+                        <h3>{{no_of_exam}}</h3>
+                        <p class="lead">No of Stock</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="box bg-danger">
+                        <h3>{{no_of_admin}}</h3>
+                        <p class="lead">Admin Users</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+{% endblock %}
