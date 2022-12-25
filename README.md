@@ -15,7 +15,7 @@ This is a simple stock management system that allows users to add, update and de
 ## Getting Started
 Clone the repository:
 ```
-git clone https://github.com/<username>/stock-management-system.git
+git clone https://github.com/gaurav-321/stock-management-system.git
 ```
 Install the required libraries:
 ```
