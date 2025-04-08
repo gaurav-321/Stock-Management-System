@@ -1,28 +1,69 @@
-# Stock Management System
-This is a simple stock management system that allows users to add, update and delete products from a list. It also has a login feature for added security.
+# Stock Management System 📦
 
-## Requirements
-- Python 3.x
-- Flask
-- Flask-SQLAlchemy
-- Flask-Session
-- tabulate
-- ebaysdk
-## Features
-- Add, update and delete products from the stock list.
-- Login feature to secure the system.
-- Simple dashboard to view the stock list.\
-## Getting Started
-Clone the repository:
-```
-git clone https://github.com/gaurav-321/stock-management-system.git
-```
-Install the required libraries:
-```
-pip install -r requirements.txt
-```
-Run the application:
-```
+## Description ✨
+The Stock Management System is a simple yet powerful tool built using Flask to manage product inventory efficiently. It offers features like adding, updating, and deleting products, along with a login feature for secure access.
+
+## Features 🚀
+- **User Authentication:** Secure user registration and login.
+- **Product Management:** Add, update, and delete products easily.
+- **Web-based Interface:** Manage stock through an intuitive web interface.
+
+## Installation 🛠️
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gag3301v/Stock-Management-System.git
+   cd Stock-Management-System
+   ```
+
+2. Install dependencies using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage 📦
+Here’s how you can use the system:
+
+### Running the Application
+To run the application, execute:
+```bash
 python app.py
 ```
-Go to http://127.0.0.1:5000/ in your web browser to access the stock management system.
+The server will start on `127.0.0.1` at port `8080`.
+
+### Adding a Product
+Navigate to `/add_product` in your browser and fill out the form to add a new product.
+
+## Configuration 🔧
+- **Environment Variables:** No specific environment variables are required, but ensure that the database URI is correctly set in your development environment.
+  
+## Tests 🧪
+This project includes basic unit tests for key functionalities. You can run them using:
+```bash
+python -m unittest discover tests/
+```
+
+## Project Structure 📁
+```
+Stock-Management-System/
+├── app.py
+├── forms.py
+├── methods.py
+├── models.py
+├── routes.py
+└── templates/
+    ├── base.html
+    ├── dashboard.html
+    ├── login.html
+    ├── register.html
+    └── stock_list.html
+```
+
+## Contributing 🙌
+Contributions are welcome! Please read our [CONTRIBUTING.md](https://github.com/gag3301v/Stock-Management-System/blob/main/CONTRIBUTING.md) for details on how to contribute.
+
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/gag3301v/Stock-Management-System/blob/main/LICENSE) file for details.
+
+---
+
+**Note:** This README is a template and should be adapted according to your specific project's needs.
