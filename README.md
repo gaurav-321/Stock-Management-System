@@ -63,7 +63,3 @@ Contributions are welcome! Please read our [CONTRIBUTING.md](https://github.com/
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/gag3301v/Stock-Management-System/blob/main/LICENSE) file for details.
-
----
-
-**Note:** This README is a template and should be adapted according to your specific project's needs.
